@@ -1,0 +1,9 @@
+.show > header {
+  --block-spacing-horizontal: 0;
+  padding-left: 2rem;
+  /* margin: 3rem; */
+}
+.info-box {
+  display: flex;
+  justify-content: space-around;
+}

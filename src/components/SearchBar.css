@@ -1,9 +1,9 @@
-div {
+.search {
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
   align-items: center;
 }
-button {
+.search > button {
   max-width: 150px;
 }

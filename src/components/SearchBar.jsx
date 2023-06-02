@@ -5,7 +5,7 @@ export default function SearchBar({ callback }) {
   const [name, setName] = useState("");
   const handleClick = () => callback(name);
   return (
-    <div>
+    <div className="search">
       <input
         type="search"
         id="search"

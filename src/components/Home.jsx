@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="container">
+      <main className="container home">
         <SearchBar callback={callback} />
         {shows.length > 0 && <ShowGrid shows={shows} />}
       </main>
